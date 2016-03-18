@@ -5,5 +5,5 @@
 • income tax = based on the tax table provide below
 • net income = gross income - income tax
 • super = gross income x super rate
-2. To command line: node.exe main.js input.txt
-3. Tests:
+2. Run in command line: node.exe main.js input.txt
+3. Test in command line: npm test.
