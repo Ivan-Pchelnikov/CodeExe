@@ -6,17 +6,17 @@ var fs = require('fs');
 var expect = require('chai').expect;
 
 describe("Test main function", function() {
-    describe("Load from local input file and calculate the reuslt.", function() {
+    describe("Load from local input file and calculate the result.", function() {
         it("File input.txt exist.",function() {
-            fs.stat('../input.txt', function(err, stat) {
+            var inputfile = '../input.txt';
+            fs.stat(inputfile, function(err, stat) {
                 expect(err).to.equal(null);
             });
         });
         it("File output.txt exist.",function() {
-
             main.mainfunc('../input.txt', main.createPayslip);
-
-            fs.stat('../output.txt', function(err, stat) {
+            var outputfile = '../output.txt';
+            fs.stat(outputfile, function(err, stat) {
                 expect(err).to.equal(null);
             });
         });
