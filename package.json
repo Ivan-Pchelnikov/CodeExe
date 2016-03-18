@@ -1,0 +1,16 @@
+{
+    "name": "codeEx",
+    "version": "0.5.0",
+    "description": "code ex",
+    "author": "ivan-pchelnikov",
+    "license": "ISC",
+    "main": "main.js",
+    "scripts": {
+        "test": "./node_modules/.bin/mocha --reporter spec",
+		"start": "node main.js input.txt"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Ivan-Pchelnikov/CodeExe.git"
+    }
+}
