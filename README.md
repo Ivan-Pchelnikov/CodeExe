@@ -1,6 +1,5 @@
 # CodeExe
 
-Test changes for pull request.
 
 1 . The calculation details will be the following:
 • pay period = per calendar month
